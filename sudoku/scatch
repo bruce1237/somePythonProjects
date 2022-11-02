@@ -1,0 +1,14 @@
+row 1
+sudoku[a][0-2][0-2][0-2]
+
+col 1
+sudoku[0-size]
+      [block]
+      [0-2]
+      [block_row_index]
+
+block
+sudoku[row]
+      [block]
+      [0-2]
+      [0-2]
