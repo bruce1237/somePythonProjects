@@ -1,0 +1,39 @@
+/Users/bosun/Codes/Python/somePorjects/venv/bin/python /Users/bosun/Codes/Python/somePorjects/shortest_route/main.py
+LEN:  3
+exist 0 [1, 6]
+exist 1 [3, 5]
+exist 2 [3, 4]
+not exist
+27
+generate dots
+generate dot: 0 :  [30, 22]
+generate dot: 1 :  [35, 10]
+generate dot: 2 :  [13, 34]
+generate dot: 3 :  [32, 2]
+picking starting dot
+starting dot: 2 [13, 34]
+start dot removed from dots list
+get near dot
+
+start dot:  [30, 22]
+remove start dot:  [30, 22]
+0 [35, 10]
+13.0
+1 [32, 2]
+20.09975124224178
+[13.0, 20.09975124224178]
+[0, 1]
+next_dot [35, 10]
+start dot:  [35, 10]
+remove start dot:  [35, 10]
+0 [32, 2]
+8.54400374531753
+[8.54400374531753]
+[0]
+next_dot [32, 2]
+start dot:  [32, 2]
+remove start dot:  [32, 2]
+====================
+[[30, 22], [35, 10], [32, 2]]
+30, 22 -> 35, 10 -> 32,2
+Process finished with exit code 0

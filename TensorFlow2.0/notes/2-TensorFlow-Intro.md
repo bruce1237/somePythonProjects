@@ -20,3 +20,17 @@ If you have a CUDA enabled GPU you can install the GPU version of TensorFlow. Yo
 ```console
 pip install tensorflow-gpu
 ```
+
+
+using tensorflow
+
+`import tensorflow as tf`
+
+
+## tensorflow dataType
+```commandline
+string = tf.Variable("this is a string", tf.string)
+number = tf.Variable(234, tf.int16)
+floating = tf.Variable(3.4567, tf.float64)
+```
+
